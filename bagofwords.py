@@ -35,7 +35,7 @@ def union(a, b):
 
 # reading a bag of words file back into python. The number and order
 # of emails should be the same as in the *samples_class* file.
-def read_bagofwords_dat(myfile, numofemails=10000):
+def read_bagofwords_dat(myfile, numofemails):
     bagofwords = numpy.fromfile(myfile, dtype=numpy.uint8, count=-1, sep="")
     bagofwords=numpy.reshape(bagofwords,(numofemails,-1))
     return bagofwords
