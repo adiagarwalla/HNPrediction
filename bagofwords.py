@@ -59,30 +59,30 @@ def tokenize_corpus(inputf, train=True):
     if train == True:
         words = {}
 
-    f = open(inputf, "r")
-    jsonobj = json.load(f)
-    for story in jsonobj["hits"]:
-        classes.append(get_class(story["points"])) # classification
-        samples.append(story["objectID"]) 
+    with open(inputf, "r") as f:
+        for line in f:
+            story = json.loads(line) #separate story on each line
+            classes.append(get_class(story["points"])) # classification
+            samples.append(story["objectID"]) 
 
-        raw = story["title"]
-        # remove noisy characters; tokenize
-        raw = re.sub('[%s]' % ''.join(chars), ' ', raw)
-        tokens = word_tokenize(raw)
-        # convert to lower case
-        tokens = [w.lower() for w in tokens]
-        tokens = [w for w in tokens if w not in stopWords]
-        tokens = [wnl.lemmatize(t) for t in tokens]
-        tokens = [porter.stem(t) for t in tokens]
-        if train == True:
-            for t in tokens: 
-                # this is a hack but much faster than lookup each
-                # word within many dict keys
-                try:
-                    words[t] = words[t]+1
-                except:
-                    words[t] = 1
-        docs.append(tokens)
+            raw = story["title"]
+            # remove noisy characters; tokenize
+            raw = re.sub('[%s]' % ''.join(chars), ' ', raw)
+            tokens = word_tokenize(raw)
+            # convert to lower case
+            tokens = [w.lower() for w in tokens]
+            tokens = [w for w in tokens if w not in stopWords]
+            tokens = [wnl.lemmatize(t) for t in tokens]
+            tokens = [porter.stem(t) for t in tokens]
+            if train == True:
+                for t in tokens: 
+                    # this is a hack but much faster than lookup each
+                    # word within many dict keys
+                    try:
+                        words[t] = words[t]+1
+                    except:
+                        words[t] = 1
+            docs.append(tokens)
     if train == True:
         return(docs, classes, samples, words)
     else:
@@ -119,13 +119,12 @@ def find_wordcounts(docs, vocab):
 
 def main(argv):
     inputf = ''
-    outputf = 'train'
     vocabf = ''
     start_time = time.time()
-    word_count_threshold = 100
+    word_count_threshold = 30
 
     try:
-        opts, args = getopt.getopt(argv,"i:o:v:",["ifile=","ofile=","vocabfile="])
+        opts, args = getopt.getopt(argv,"i:v:",["ifile=","vocabfile="])
     except getopt.GetoptError:
         print 'python bagofwords.py -i <ifile> -v <vocabulary>'
         sys.exit(2)
@@ -140,6 +139,7 @@ def main(argv):
         elif opt in ("-v", "--vocabfile"):
             vocabf = arg
 	 
+    outputf = inputf[:-4]
 
     if (not vocabf):
         (docs, classes, samples, words) = tokenize_corpus(inputf, train=True)
@@ -149,7 +149,6 @@ def main(argv):
         vocab = [line.rstrip('\n') for line in vocabfile]
         vocabfile.close()
         (docs, classes, samples) = tokenize_corpus(inputf, train=False)
-        outputf = 'test'
 
     bow = find_wordcounts(docs, vocab)
     #sum over docs to see any zero word counts, since that would stink.
@@ -158,7 +157,7 @@ def main(argv):
     # print out files
 
     if (not vocabf):
-        outfile= codecs.open("vocab.txt", 'w',"utf-8-sig")
+        outfile= codecs.open(outputf+"_vocab.txt", 'w',"utf-8-sig")
         outfile.write("\n".join(vocab))
         outfile.close()
     #write to binary file for large data set
