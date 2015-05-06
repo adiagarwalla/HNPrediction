@@ -1,9 +1,15 @@
 import lda
 import numpy as np
 
-num_train = 8974
-num_test = 1026
-file_extension = "10k"
+file_extension = "100k"
+if file_extension == "100k": 
+	num_train = 89961
+	num_test = 10039
+else:
+	num_train = 8974
+	num_test = 1026
+
+
 number_topics = 15
 number_iterations = 100
 
