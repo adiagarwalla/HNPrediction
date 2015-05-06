@@ -1,1026 +1,1026 @@
-7815095
-7815048
-7814929
-7814664
-7814384
-7814200
-7814167
-7814140
-7814132
-7814077
-7813980
-7813820
-7813648
-7813618
-7813502
-7813349
-7813218
-7813148
-7813120
-7812948
-7812780
-7812766
-7812715
-7812622
-7812513
-7812441
-7812429
-7812402
-7812295
-7812277
-7812267
-7812257
-7812187
-7812136
-7811952
-7811921
-7811893
-7811875
-7811871
-7811864
-7811639
-7811626
-7811577
-7811535
-7811534
-7811429
-7811419
-7811176
-7811167
-7811127
-7811049
-7811026
-7811018
-7810989
-7810981
-7810965
-7810944
-7810927
-7810867
-7810853
-7810409
-7810398
-7810397
-7810396
-7810371
-7810350
-7810155
-7810125
-7810007
-7809951
-7809778
-7809748
-7809737
-7809724
-7809712
-7809701
-7809699
-7809546
-7809528
-7809523
-7809374
-7809370
-7809254
-7809253
-7809174
-7809165
-7809152
-7809126
-7809122
-7809103
-7809083
-7808964
-7808726
-7808676
-7808514
-7808411
-7808409
-7808283
-7808279
-7808277
-7808250
-7808249
-7808106
-7808080
-7808011
-7807983
-7807909
-7807898
-7807895
-7807662
-7807649
-7807431
-7807321
-7807300
-7806939
-7806810
-7806658
-7806631
-7806625
-7806574
-7806543
-7806532
-7806523
-7806497
-7806422
-7806367
-7806363
-7806323
-7806230
-7806212
-7806203
-7806116
-7806087
-7806078
-7806069
-7806063
-7806043
-7806039
-7806009
-7805941
-7805919
-7805915
-7805852
-7805802
-7805756
-7805659
-7805590
-7805576
-7805566
-7805546
-7805500
-7805460
-7805363
-7805336
-7805318
-7805310
-7805102
-7804852
-7804776
-7804705
-7804637
-7804573
-7804455
-7804440
-7804346
-7804259
-7804255
-7804198
-7803901
-7803859
-7803855
-7803823
-7803817
-7803788
-7803765
-7803684
-7803487
-7803485
-7803380
-7803305
-7803086
-7802894
-7802817
-7802774
-7802760
-7802686
-7802499
-7802468
-7802437
-7802372
-7802237
-7802168
-7801947
-7801897
-7801812
-7801776
-7801682
-7801406
-7801328
-7801228
-7801046
-7800997
-7800994
-7800987
-7800871
-7800860
-7800801
-7800434
-7800416
-7800385
-7800313
-7800299
-7800249
-7800062
-7800036
-7799820
-7799615
-7799612
-7799610
-7799565
-7799524
-7799502
-7799436
-7799363
-7799356
-7799333
-7799332
-7799271
-7799257
-7799221
-7799203
-7799114
-7799084
-7799053
-7798996
-7798946
-7798626
-7798535
-7798505
-7798424
-7798273
-7798134
-7798110
-7798080
-7797912
-7797878
-7797777
-7797758
-7797755
-7797551
-7797504
-7797426
-7797336
-7797283
-7797134
-7797128
-7797046
-7796973
-7796879
-7796822
-7796726
-7796517
-7796493
-7796356
-7796288
-7796219
-7796185
-7796000
-7795941
-7795853
-7795818
-7795589
-7795538
-7795534
-7795390
-7795377
-7795100
-7794575
-7794511
-7794435
-7794386
-7794360
-7794301
-7794298
-7794250
-7794146
-7794139
-7793962
-7793944
-7793864
-7793861
-7793855
-7793764
-7793698
-7793679
-7793594
-7793569
-7793564
-7793550
-7793513
-7793462
-7793450
-7793357
-7793347
-7793196
-7793073
-7792995
-7792945
-7792920
-7792803
-7792565
-7792417
-7792315
-7792272
-7792259
-7792169
-7792049
-7792026
-7791955
-7791918
-7791909
-7791648
-7791573
-7791555
-7791521
-7791189
-7791084
-7791052
-7790871
-7790854
-7790840
-7790832
-7790706
-7790680
-7790659
-7790645
-7790443
-7790374
-7790356
-7790325
-7790318
-7790226
-7790181
-7789916
-7789905
-7789886
-7789877
-7789851
-7789773
-7789729
-7789678
-7789652
-7789586
-7789493
-7789392
-7789339
-7789105
-7789031
-7788897
-7788895
-7788824
-7788774
-7788760
-7788706
-7788661
-7788651
-7788650
-7788476
-7788414
-7788328
-7788275
-7788092
-7788069
-7788001
-7787807
-7787708
-7787663
-7787658
-7787642
-7787352
-7787203
-7787198
-7786919
-7786895
-7786871
-7786840
-7786732
-7786671
-7786654
-7786489
-7786412
-7786359
-7785958
-7785809
-7785730
-7785696
-7785666
-7785523
-7785420
-7785382
-7785232
-7785184
-7785155
-7785129
-7785102
-7784997
-7784963
-7784911
-7784808
-7784727
-7784697
-7784669
-7784589
-7784359
-7784325
-7784266
-7784066
-7783905
-7783779
-7783744
-7783599
-7783550
-7783487
-7783387
-7783357
-7783314
-7783284
-7783264
-7783079
-7783069
-7783049
-7783043
-7782989
-7782971
-7782937
-7782845
-7782752
-7782630
-7782181
-7782173
-7782142
-7781952
-7781845
-7781836
-7781824
-7781809
-7781628
-7781517
-7781373
-7781248
-7781200
-7781138
-7781136
-7780943
-7780933
-7780828
-7780824
-7780775
-7780747
-7780625
-7780576
-7780496
-7780467
-7780440
-7780373
-7780328
-7780260
-7780175
-7780130
-7780102
-7780055
-7779988
-7779973
-7779964
-7779956
-7779928
-7779913
-7779790
-7779727
-7779702
-7779621
-7779616
-7779534
-7779523
-7779417
-7779368
-7779352
-7779311
-7779073
-7779015
-7779001
-7778862
-7778779
-7778777
-7778753
-7778710
-7778630
-7778627
-7778587
-7778473
-7778419
-7778382
-7778300
-7778011
-7777989
-7777982
-7777768
-7777632
-7777609
-7777600
-7777575
-7777504
-7777424
-7777108
-7777086
-7776964
-7776962
-7776957
-7776785
-7776763
-7776743
-7776688
-7776611
-7776577
-7776461
-7776364
-7776265
-7776177
-7776025
-7776012
-7776011
-7776010
-7776001
-7775900
-7775849
-7775841
-7775742
-7775641
-7775568
-7775254
-7775006
-7774955
-7774876
-7774794
-7774790
-7774766
-7774764
-7774695
-7774694
-7774693
-7774689
-7774634
-7774597
-7774565
-7774560
-7774486
-7774402
-7774394
-7774273
-7774143
-7774140
-7774103
-7774088
-7773877
-7773809
-7773726
-7773709
-7773402
-7773359
-7773256
-7773181
-7773168
-7773036
-7773002
-7772948
-7772892
-7772818
-7772736
-7772735
-7772730
-7772491
-7772432
-7772405
-7772304
-7772257
-7772230
-7772171
-7772145
-7772138
-7772130
-7772084
-7771925
-7771876
-7771867
-7771820
-7771817
-7771773
-7771766
-7771667
-7771662
-7771616
-7771568
-7771564
-7771424
-7771405
-7771385
-7771372
-7771300
-7771109
-7771059
-7771036
-7770982
-7770959
-7770827
-7770805
-7770797
-7770717
-7770686
-7770674
-7770579
-7770147
-7770109
-7770074
-7769965
-7769901
-7769896
-7769883
-7769881
-7769715
-7769610
-7769607
-7769590
-7769468
-7769288
-7769216
-7769137
-7769133
-7769117
-7769099
-7769095
-7769042
-7768926
-7768909
-7768857
-7768526
-7768502
-7768475
-7768463
-7768425
-7768391
-7768355
-7768310
-7768297
-7768263
-7768243
-7768195
-7768179
-7768178
-7768169
-7768076
-7768062
-7768044
-7768038
-7768016
-7767929
-7767844
-7767610
-7767593
-7767586
-7767569
-7767524
-7767518
-7767451
-7767371
-7767338
-7767165
-7767148
-7766839
-7766645
-7766294
-7766289
-7766257
-7766175
-7766169
-7766010
-7765968
-7765745
-7765739
-7765730
-7765646
-7765642
-7765578
-7765350
-7764890
-7764641
-7764466
-7764334
-7764329
-7764299
-7764259
-7764189
-7764166
-7764105
-7764041
-7764029
-7763833
-7763763
-7763720
-7763683
-7763628
-7763453
-7763350
-7763328
-7763248
-7763115
-7763066
-7762918
-7762907
-7762868
-7762681
-7762673
-7762650
-7762424
-7762414
-7762397
-7762305
-7762007
-7761946
-7761813
-7761807
-7761803
-7761796
-7761770
-7761769
-7761761
-7761740
-7761603
-7761552
-7761398
-7761273
-7761186
-7761153
-7760743
-7760716
-7760627
-7760536
-7760468
-7760457
-7760352
-7760349
-7760244
-7760161
-7760098
-7760026
-7759965
-7759952
-7759897
-7759878
-7759748
-7759565
-7759525
-7759478
-7759386
-7759304
-7759243
-7759219
-7759216
-7759153
-7759107
-7759016
-7758472
-7758377
-7758365
-7758318
-7758252
-7758224
-7758023
-7757998
-7757770
-7757739
-7757625
-7757589
-7757570
-7757532
-7757395
-7757306
-7757160
-7757084
-7757010
-7757000
-7756898
-7756659
-7756644
-7756574
-7756487
-7756374
-7756257
-7756137
-7756083
-7756042
-7755972
-7755965
-7755934
-7755928
-7755859
-7755748
-7755679
-7755665
-7755644
-7755619
-7755616
-7755582
-7755552
-7755524
-7755482
-7755438
-7755391
-7755307
-7755288
-7755263
-7755175
-7755165
-7755162
-7755155
-7755116
-7755009
-7754986
-7754872
-7754790
-7754728
-7754594
-7754530
-7754475
-7754344
-7754315
-7754311
-7754128
-7754089
-7754005
-7753971
-7753882
-7753818
-7753740
-7753418
-7753240
-7753212
-7753117
-7753080
-7753032
-7753024
-7752896
-7752773
-7752685
-7752608
-7752521
-7752505
-7752389
-7752341
-7752327
-7752304
-7752283
-7752282
-7752258
-7752211
-7752120
-7751907
-7751869
-7751731
-7751641
-7751569
-7751495
-7751396
-7751384
-7751357
-7751272
-7751271
-7751119
-7751079
-7750758
-7750675
-7750650
-7750632
-7750530
-7750343
-7750248
-7750241
-7750167
-7749866
-7749859
-7749834
-7749781
-7749736
-7749710
-7749707
-7749604
-7749591
-7749530
-7749525
-7749514
-7749312
-7749302
-7749269
-7749247
-7749108
-7749020
-7748936
-7748902
-7748853
-7748728
-7748665
-7748575
-7748551
-7748506
-7748336
-7748219
-7748166
-7748146
-7748098
-7748083
-7748071
-7747892
-7747811
-7747796
-7747783
-7747763
-7747682
-7747656
-7747407
-7747328
-7747250
-7747136
-7746931
-7746830
-7746728
-7746598
-7746568
-7746565
-7746459
-7746431
-7746374
-7746350
-7746250
-7746170
-7746104
-7745953
-7745736
-7745731
-7745668
-7745575
-7745498
-7745415
-7745383
-7745274
-7745209
-7745105
-7745061
-7745055
-7745036
-7744939
-7744931
-7744903
-7744894
-7744807
-7744795
-7744746
-7744606
-7744447
-7744402
-7744312
-7744212
-7744180
-7743984
-7743941
-7743891
-7743819
-7743802
-7743707
-7743696
-7743583
-7743542
-7743541
-7743329
-7743193
-7743138
-7743043
-7743041
-7743002
-7742876
-7742873
-7742781
-7742780
-7742656
-7742603
-7742546
-7742535
-7742514
-7742458
-7742305
-7742275
-7742196
-7742159
-7742146
-7742127
-7742112
-7741950
-7741925
-7741832
-7741762
-7741758
-7741728
-7741608
-7741406
-7741370
-7741265
-7741227
-7741152
-7741004
-7741003
-7740906
-7740876
-7740857
-7740786
-7740776
-7740671
-7740661
-7740641
+Linear equation solver in 3 lines of Python
+Apple Now Makes Apps For Other Mobile Platforms
+Computers See Your Face as a Child. Will They Recognize You as an Adult?
+Are there any worse sorting algorithms than Bogosort?
+How I hacked unverified Facebook accounts 
+Brian Williams interviews Edward Snowden at 10PM EST
+Google Diversity Statistics
+Joshua Norton, Emperor of the United States
+The Disappearance of Conservative Commencement Speakers
+Here's Microsoft Demoing Their Real-Time Translation Technology
+ Use Oracles UPL, Abandon Your Intellectual Property
+Git 2.0
+Parallel Linux (2013)
+Europe: 1, Google: 0: EU Court Ruling a Victory for Privacy
+Fundraiser for OS X support in htop (command line replacement for "top")
+Inferring Status and Competence from Signals of Nonconformity (2013) [pdf]
+The science behind achieving your goals
+Apple confirms it's buying Beats for $3 billion
+Math for Computer Science
+Real time speech to speech translation on Skype by MSR
+Women everywhere are getting pushed out of journalism
+Show HN: Objectified  An all JSON-HTML templating engine  in Node or Browser
+A Path Toward More Powerful Tabletop Accelerators
+The Internet of Nothings
+An experiment in decentralized collaborative neuroimaging research
+Prof. Stephen Hawking on how England can win the World Cup
+Our Incredible Journey  Tumblr tracking Aqui-hire Shutdowns
+JavaScript Error Reporting Using Source Maps and Sentry in Django
+How Americas source of immigrants has changed over a century
+To Catch a Phone Thief, Take a 'Theftie'
+White House Seeks $5 Billion Fund for Anti-Terror Push
+New Matter MOD-t: a 3D printer for everyone
+App Annie Acquires Distimo
+Uber drivers on $90,766 in NYC
+When eating an elephant, take one bite at a time
+RubyMotion now supports Android
+My Design Process: Square Cash Recurring Payments
+Merge files of varying formats into one PDF,Word,Excel,PP,or audio file.
+Quantum Cryptography with Ordinary Equipment
+Murders in US Cities Again at Record Lows
+Pivot with PaaS: How PaaS Will Help Your Business Survive and Thrive
+Inventing the Unix "sudo" command
+Tech needs to decide which master it's going to serve
+Google Maps now serves directions for North Korea
+A Classification of Computer Science Research
+Should autonomous cars be allowed to speed? Share your opinion
+Google's Prototypical Self-Driving Car
+Money doesn't matter anymore
+Cryengine is now available as a subscription on Steam
+Orchestrate Eases Complex Database Tasks (review)
+Working Memory, IQ, Focus and Multitasking Brain Game
+Nagios email alerts are bad for you
+Infinit  Peer to Peer file sharing startup raises $1.8MM
+Biometric Device
+Children Of Judges Influence Court Decisions
+Show HN: Flying like a bird with Oculus Rift and an iPhone
+Are you a honest property owner? #airbnb
+Ask HN: Does anyone have a uber / taxi clone at hand?
+How You Nest Modules Matters in Ruby
+Mary Meeker's 2014 Internet Trends
+Silicon Valley Virtual Reality Conference wrap-up
+KPCB Internet trends 2014 [pdf]
+Dependency Management is Risk Management
+Apple's iWatch Said to Feature Round Design, Production May Start This Summer
+Send to Car Returns to Google Maps
+New Matter MOD-t is a $149 3D printer
+Better data centers through machine learning
+$1.6 million of Bitcoin used on Overstock
+Cascaded split for more than one separator?
+Is College Worth It? It Depends on Whether You Graduate
+Concordion.Net for automated acceptance tests in C#
+CSS Compression: Minifier roulette
+Adjusting the iOS deployment target with Cordova Hooks and Node.js
+Why I built my startup in Vancouver, not Silicon Valley
+Web Performance Optimization is Simple  Can Your Developers Execute?
+Refactoring fat ruby models
+Clearing Detroit's blight will cost city almost $2bn, taskforce report finds
+Valve delays Steam Machine controller to 2015
+The ideal startup team
+In Chrome 36, you can no longer disable the notification icon in the menu bar
+FlyMAD  The Fly Mind Altering Device
+Gamma Ray Burst in M31 Andromeda Galaxy
+Facebook is going to listen to our conversations through our own phones mic
+HangFire  Reliable and transparent background job processing for ASP.NET
+Systemd has 6 service startup notification types, and they're all wrong
+7 Topics Your Target Market Wants You to Email Them About
+Google to start building 'friendly' driverless car
+Mission Improbable: Changing the online world
+Minecraft  36 times larger on PS4 and Xbox One
+Microsofts Nadella Lays Out Post-Post PC Vision 
+An Anonymous Rich Person Is Hiding Money All Around San Francisco
+Are you fanatic about product roadmaps? Guess its time to rethink.
+Google is slow or even unaccessible in China
+An introduction to SNMP
+Aussie startup sells for US$73 Billion
+Why cant doctors identify killers?
+Google Made The Tiniest Change To Its Corporate Logo
+Unathenticated Backup and Password Disclosure in HandsomeWeb SOS Webpages
+Chromebook Pixel does 4K resolution at 60Hz
+Why I discuss my future projects
+Ask HN: Laser eye vision correction?
+WTB Top Talent: Work on a Web-Based Document Rendering and Annotation Interface
+Google Unveils Its Own Wheel-less Self Driving Car
+Google prototype car without pedals, brakes, or steeling wheel
+Just press go: designing a self-driving vehicle
+Valve: Steam Machines delayed until 2015
+Ask HN: Good books on Information Economics?
+Giroptic hits it big on Kickstarter with their Full HD 360 3D Camera
+Was That Just a Gamma Ray Burst?
+So, you want to come to Brazil for the World Cup?
+Hardware Whizzes Solve a Big Smartwatch Problem: Your Fat Fingers
+HBS Application Essays
+Stanford crypto summit (BlockChains and Crypto in Governance)
+Responding Rationally to a Tragedy
+Ask HN: What makes Firefox OS better than webOS?
+Most expert chess games don't end in checkmate
+Is Python Becoming the King of the Data Science Forest?
+You Don't Want This Perfect Job
+Excel As A Database
+What Are The Best Day-To-Day Time-Saving Hacks?
+Intuit is buying Check for $360 million
+SFHN Event: Funnel Analysis for Hackers/Founders
+How to Win the Lottery (Happily)
+Update on NPAPI Deprecation
+Galpagos syndrome
+Show HN: List all the licenses for your pip-installed Python packages.
+Root Cause Analysis: Problem identified between keyboard and the chair
+The 17 Chrome Dev Tools Commands you Didn't Know Existed
+Co-Founder for Smart Watch Startup
+Forging a Qubit to Rule Them All
+2038 is closer than it seems
+Acceleron V  A two stage water rocket
+Change `master` branch into `primary`
+SuperHost (YC w14) rebrand itself as Guesty
+Bits Sysadmins Should Know
+California to begin handing out driver's licenses to autonomous cars
+Mapping the api landscape
+Google adds rendering to "Fetch as Google" feature
+First Person 3D Navigation, written in Elm
+Marc Andreessen On How To Turn Impossible Ideas Into Successful Businesses
+From chaos to order: How ants optimize food search
+Lessons on Hiring From Facebook: Going from 500 to 5,000 employees
+Berkshelf Workflow
+What universal human experiences are you missing without realizing it?
+Join the Freelancers Movement to fight for better rights
+Ask HN: How do you prevent Security Anxiety?
+PayPal-Owned StackMob Shutting Down May 11
+AngularJS Directive for OAuth 2.0
+A Polyglot's Daily Workout
+Computer Languages Character Distribution
+Vote for Google's Bay Area Impact Challenge
+Design Dudes podcast about starting from a blank slate
+Agile, UX and user research
+Hacker Who Helped Disrupt Cyberattacks Is Allowed to Walk Free
+We no longer reflect. We react 
+SaaS App Lifecycle Email Starter Kit
+SVG `text` and Small, Scaleable, Accessible Typographic Designs
+The Flaw Lurking In Every Deep Neural Net
+What Comes Next Is the Future
+Median CEO pay crosses $10 million in 2013
+CleverStack, the most badass Node.js boilerplate/framework yet?
+Magic Phone Stand
+Drop the transitions, give realistic UI feedback on :active
+An Architecture for E-Voting
+Samsung patent filings: gesture-controlled wearable device with round interface
+Australian Apple iDevices hijacked
+Tips to Be a Better Blogger
+Leo The Homeless Coder Is Still Homeless
+Show HN: I hacked up a hybrid android / iphone app in a week...
+Privacy under attack: the NSA files revealed new threats to democracy
+Fujitsu harvests low-potassium lettuce grown in semiconductor plant
+Hiring Developers in a Remote and Distributed Company
+Another reason to explain social entrepreneurship
+Prestashop 101 Day 3  Categories and products
+The ABC of Code
+Show HN: Our new app let you share image from websites to instagram
+Morgan Freemans Voice on Helium
+Accounting.js  format money / currency in JavaScript
+Privacy Levels
+How Long Does a YC Hiring Link Stay On the Front Page?
+Cryptocoin Charts
+The term big data is going to disappear in the next 2 years
+Show HN : My New Math Game in iOS 7
+Innovation and Policy-Making Should Be Regulated. But Not By Who You Think.
+Numeral.js  A JavaScript library for formatting and manipulating numbers
+Show HN: FreshPost.io  Automated Social Media Marketing
+Ask HN: Appropriate title to brand myself as a consultant?
+Its 2014  You Need a Full Stack Localization Solution
+Smooth infinitesimal analysis
+YouTube working on a mobile app for creators and new revenue options
+Saving data to a file in your Android application
+Ask HN: Donation-ware Developers OSS or otherwise, how much do you usually make?
+Python 3 is killing Python
+Build a Better App With These 4 Design Essentials
+Explore and modify running applications on either iOS or Mac OS X
+BIAMU DE Anonymous job market and  employers rating portal
+How did we get into this [DevOps] mess?
+Yann LeCun's answers from the Reddit AMA
+P.sh  a friendly script launcher
+Why does git fast-forward merges by default
+Hashtags often trivial but discussion threads like #YesAllWomen can be powerful
+Eric Boyd of Sensebridge on the impact of hardware on our daily lives.
+Barry Minkow and ZZZZ Best
+Better programming with Ruby on Rails and AngularJS
+Game Theory Is Counterintuitive
+SteamShovel, a Node.js code coverage tool (Ghostalk Podcast)
+The Future of Apps
+How to Adult: Everything you need to know that school never taught you
+BBC Radio 1's playlist secrets uncovered: as much about YouTube hits as tunes
+Probes deliver live images of cellular 'skeleton'
+Apple readying Smart Home platform for WWDC
+Charter Business Phone down in 11 states
+No, its not Amazon that has the ebook monopoly
+XD - a messaging app that looks radically different
+In dogs play, researchers see honesty and deceit, perhaps morality
+Thomas Piketty accuses Financial Times of dishonest criticism
+KAIST Raptor Robot runs at 28.6 mph and jumps over obstacles
+Capstone: The ultimate disassembly framework
+ChucK Demos
+Why Every Internet Marketer Should Be a Statistician
+Python 3 is killing Python
+Pluto-Bound Spacecraft Faces Crisis
+EBay Password Update
+Open Source Ecology
+Pirate Party keeps a Seat at the European Parliament
+Patient stem cells used to make heart disease-on-a-chip
+Google Needs Up to $30 Billion in Cash Overseas for Deals
+Library for loading and unloading behavior based on environment conditions.
+Why you should read kids books, and where to start
+Can Crowd Testing Replace Quality Teams?
+How to put a human on Mars
+Regarding ARM-based Macs
+Is All the Universe from Nothing?
+Quake-style dropdown Mintty console using AutoHotKey
+Margarine linked to divorce?
+HTTP/2.0  Please admit defeat
+Ask HN: Feedback for an API to send triggered emails?
+Really good bioinformatics repo
+A Platform and Blogging Tool, Medium Charms Writers
+Short Film Based on Another World
+Synchtube is back  introducing Stations (beta)
+On Explaining Monads
+Investor Talk on Ubers Valuation Hits as High as $17 Billion
+DevOps and Enterprises, it's a culture thing
+Btcd Beta Announcement
+The Origins of the Blink Tag
+Kids (6-13) React to an old Apple II Computer
+Ask HN: How can I get involved in AI?
+Discovery Channel  The Secret History Of Hacking
+Launching Crowdtilt Open: the most powerful and flexible crowdfunding solution
+OOP in JavaScript "done right"
+What I learned about SQLiteat a PostgreSQL conference
+Ask HN: Do you struggle with getting more customers?
+These are the customized Lamborghinis of Japan's underworld
+Fitness Crazed
+Show HN: Barcoded  A dynamic barcode generation web service
+Earth's backup: Sending religious texts to the moon
+Ask HN: Anyone attending AngelHack Toronto Spring 2014 (June 21-22)
+Small is Beautiful (2010)
+Ask HN: Prospective technical cofounder. How do I find a biz guy with an idea?
+Commercial GPS Turns 25: How the Unwanted Military Tech Found Its True Calling
+Linus Torvalds' Greatest Invention
+Bitcoin is Not anonymous
+Amazon to significantly increase the use of robots in warehouses
+Python: Fastest way to find a string in a big string collection
+Monty Brewster against SELECT form field bad practices
+My Favorite Teacher (2000)
+Earthquakes | Caltech
+Bitcoin wizards
+Show HN: Speed up your Website's DNS lookups
+Were on the cusp of deep learning for the masses. You can thank Google later
+See how many lines of code you've written
+Mill CPU Specification [video]
+Print a string as hex bytes?
+Title II is the key to net neutralityso what is it?
+The best activity for team bonding: Paintball
+AndLinux.org  Run Linux natively inside Windows
+Greed Wasn't Always Good
+Bitcoin Developer Documentation
+Everything You Wanted To Know About Usenet But Where Afraid To Ask
+Practicality With Rust: Setting Up A Project
+The music world may have found itself a new big villain: YouTube
+BB10 Intelligent Assistant
+Slope-Finding Functions
+Why yenc is Bad For USENET (2002)
+WebCrypto API to recommend only unsafe elliptic curves?
+Beacon  PayPal
+Explanation of Singular Value Decomposition for Image Compression
+My most important learnings from 6 weekly startups
+Google Glass Doesnt Erode Privacy. Human Behavior Does. 
+Free is a lie
+Developing AOSP Part 1: Get the code using the Manifest and Repo tool
+Delhi government dives into the android app development world
+How to get started with contributing to Open Source projects
+Springpad is Shutting Down on June 25th
+Don't learn to code. Learn to think
+Blaze  Meteor's reactive templating engine
+Solar FREAKIN' Roadways
+MacPorts 2.3.0 has been released
+New Supermarket To Open in Berlin Minus The Packaging
+Tech Sex Ed
+The new Firefox Sync protocol
+Crowdfunding of startups will be huge: Indiegogo CEO
+Show HN: tny.im  the full-featured shortener for URLs and more
+How 'Game of Thrones' is like America
+5 Interesting Facts about Neutron Star
+The gremlins did it? Iffy statistics drive strong policy recommendations
+GitHub security issue PoC
+Define your limits
+Ask HN: Service that gives me a signed iPhone app
+Thomas Pikettys exhaustive inequality data turn out to be flawed
+A Heated Debate: Are Climate Scientists Being Forced to Toe the Line?
+Show HN: QwickUp, open-source lookup tool.
+Introducing Nvest
+Which position in the string caused the regular expression to fail?
+Did Piketty Get His Math Wrong?
+Microsoft Sees The Future Of TV In An Old-School Role-Playing Game
+Why does GitHub let me commit as other people?
+The 6 Step Process of Designing a WordPress Site From Top to Bottom Quickly
+Higgs Boson Machine Learning Challenge
+Shop for local food on Good Eggs by zip code
+Humans are utility monsters (ethics)
+Why empires fall: from ancient Rome to Putin's Russia
+Happy 25th Birthday to LOL
+The Economics of Blogging and The Huffington Post
+The social pressure of conformity
+Mirror grinding
+How Do I Declare A Block in Objective-C?
+Get more out of your service with machine-readable API specs
+Unit testing Sails JS: How to mock SailsJS Services in Controllers
+Overclock My Satellite
+Recap: Top 8 Insights From Digital Summit
+ Unitrends software 'completely rewritten'. Predictions?
+ Want to Get Smarter? Read Something on This List
+Learn sorting algorithm with dancing
+What is your favorite part about being a software developer? 
+Edward Snowden is giving his first American TV interview on May 28th
+Vs
+Ask HN: What is the best method for handling a large number of domains?
+Solar Roadways
+Download Effective CPI (Cost Per App Install) Calculator
+First ever Elixir Conf
+How to be a self-supporting anthropologist
+Ask HN: What's your favorite pen/load/vulnerability testing service?
+The Bill Formerly Known as the USA FREEDOM Act
+Offline text editor in 115 bytes
+Which should i take, php or ruby on rails?
+Analyze the recipe when you bake a failure cake
+Code for engineers, Comments for mathematicians
+Google offers employees best pay and benefits, according to new survey
+Sherpas, Fate and the Dangerous Business of Everest
+MooCells: spreadsheets and more, with MooTools
+Speed up your console
+Facebook flo  modify running apps without reloading
+Net Neutrality Rap from Rap News
+Cocaine Sales to Boost Italian GDP in Boon for Budget
+Spring Web Services 2.2.0 introduces annotation support 
+Patent reform hits dead end in Senate
+Solar FREAKIN' Roadways!
+A brief introduction to the DOM and Chrome developer tools
+Researchers crack unassailable encryption algorithm in two hours
+How the Kindle turned me into a book pirate
+Let me teach you Photoshop for free  Lesson #3
+Google Job Listing: Decider in Chief
+HP release $99 Android tablet
+WikiLeaks statement on the mass recording of Afghan telephone calls by the NSA
+Pipelight: Windows Plugins in Linux Browsers
+Nest Recalls Its Smart Smoke And Carbon Monoxide Alarms
+Make me angry
+Ask HN: Can you build something better than Youtube?
+Object.observe() live in Chromium: native data-binding
+How writing for the TV show Community cured me
+Introducing the app.json Application Manifest
+House passes bill to limit NSA's bulk collection of phone records
+Coinbase now supports the Bitcoin Payment Protocol
+Now thats your problem: the Minimal Infrastructure for Working Remotely
+Google Developing Tablet With Advanced Vision Capabilities
+Why 3D Printing Is Overhyped (I Should Know, I Do It For a Living)
+Dear Advisors: Please Don't Do This
+Ripple Founder to Sell his Stake, Price Crashes
+Why a 4 core 3.5 GHz Intel i5 CPU beats an 8 core 4.7 GHz AMD CPU
+3 simple but powerful takeaways for Ruby devs from Sandi Metz
+Climate-change Super PAC to target "science deniers"
+HP to cut thousands of jobs as earnings miss
+I Only Work on "Shiny" Projects
+Match only valid roman numerals with a regular expression (2008)
+Consulting
+Clojure Pitfalls: Part 1
+How to handle big repositories with Git
+Hoccer XO Version 2.0 features Nearby-Communication
+Gene Therapy
+What the Chinese Hacked in the US, Change eBay Pass, Congress Trying to Curb NSA
+Resign Shinseki Lazy, Statistical Leadership Has Killed Vets
+Mark Cuban: Don't keep stupid people quiet  I want to know who the morons are
+NSA reform falters as House passes gutted USA Freedom Act
+Why PayPal jumped the software-hardware gap
+The "Just News" version of BuzzFeed
+Modern games reimagined as 16-bit retro games
+Change Amazon package routing by adding "Box" to address
+Sucuri Website Firewall can now block hackers by country
+My first website made in 1997
+Lavabit Update
+SExViaHEx Lite: Dry run for Hardware Exploitation Class, Portland, OR
+Naveen Selvadurai: Expa NYC
+I want to work with you
+Former KGB general: Snowden is cooperating with Russian intelligence
+Big Data in Biomedicine Conference at Stanford (live feed)
+An open letter to members of the New Jersey District Court, FBI, and DOJ
+What Rap Battles Can Teach You About Entering New Markets
+Futuristic Construction Materials
+NASA OKs Citizen Science Attempt to Rescue a Vintage Spacecraft
+Restaurant in India delivers pizza via a drone
+Facebook Login Guide
+Ask HN: What languages include implicit condition checking?
+ImageProcessor  lightweight image manipulation in C#
+What is Couchbase Mobile and why should you care?
+PryNotes  web based note application with encryption
+Why Arent You Living in Harmony with ES6 Right Now?
+Pollution: Four wheels may be better than two
+Extending Bootstrap
+Hacker Plans Holy Marriage of GitHub and Bitcoin
+A Tour of Machine Learning Algorithms
+Home Cleaning Startup Homejoy (YC S10) Acquires Competitor Get Maid
+Teamwork without meetings 
+Ask HN: Is an IP address sufficient cause to suspect people of CP possession?
+Live stream from the Web Rebels JS-conference in Oslo
+A Roller Coaster Ride through Relativity
+Ripe for Disruption
+The Ultimate List of Freely Available .NET Libraries
+Revolutionary music keyboard firm ROLI raises $12.8m to scale production
+Star Wars: Force for Change  A Message from J.J. Abrams
+Hackers raid eBay in historic breach, access 145 million records
+EBay Cyber Attack  Expert Comments
+This is not the realtime weve been looking for
+Blizzard Is Suing Starcraft II Hackers
+Koch vs. Koch: The Brutal Battle That Tore Apart America's Most Powerful Family
+What I Love About Teaching People to Code
+Supercooled Helium Does Things That Don't Seem Possible
+12 Reasons why you should learn Ruby on Rails
+How climate change will hurt the U.S. 
+Create a private server and website
+Backbone.js  you're doing it wrong
+Ask HN  Who does your hosting?
+Google exec leaves conference because audience too small
+Picture-to-Identity linking through social network accounts [pdf]
+Nests Tony Fadell: No Ads on Thermostats
+French railway operator orders hundreds of new trains that are too big
+Manifesto for Async Software Development
+Google Penalty Recovery and Analysis Guide
+NodeOS  Operating system powered by npm
+The NSA is Not Made of Magic
+The Latest on the Heartbleed Bug
+Tried to stir HN crowd but failed miserably (IPCC announcement)
+(Amazon Route 53) A Case Study in Global Fault Isolation
+Google Tips
+Apple dethroned by Google as world's most valuable brand
+Ideas I'll Never Do / Ideas For You.
+Modi to Use Solar to Bring Power to Every Home in India by 2019 
+NASA scientists scramble to find an object in the Kuiper belt in time for visit
+Game designer wanted to help design implanted brain-computer interfaces
+Why Feminists Should Let Women Fail 
+Dart 1.4 Brings Deep Visibility to Run Applications
+The Critical Engineering Manifesto
+Static Electricity Defies Simple Explanation
+Top Hacker News commentators, April 2014
+BREAKING NEWS: Coffeeshops open in Panama
+Show HN: APIs.json
+California company Aerofex accepting preorders for $85,000 hoverbikes
+Steam In-Home Streaming
+How we built besnappy for $317000 
+Why Your Webhost Cannot Be Trusted  How WP Engine Hijacked My Business Read
+Live Consciously. Question Everything
+Rolling Shutter Correction using Gyroscope (2011)
+What I Learned Doing 250 Interviews at Google
+Interplanetary superhighway
+Why are compilers like Stalin/MLton not the default for functional languages?
+Team-Oriented JavaScript
+Introducing programmatic builds on Heroku
+Introducing Adtile Touch Experience
+Show HN: an app that allows sounds to be added to photos, JamSnap
+Four Darpa Projects That Could Be Bigger Than The Internet
+JRubyConf.EU 2014
+Uber Starts Delivering Cocktails
+Trending: Citizen Software Developer
+Notable Changes in RSpec 3
+HondaJet moves closer to actual delivery date
+Copyright Match on Vimeo
+FutureAdvisor (YC S10) Raises $16M Series B Led by Canvas (ex-Morgenthaler)
+New Desktop Stories: DRM Coming to Firefox
+EBay Tells Users to Change Passwords After Hack Attack
+Static, static blog generator on GitHub pages
+How to Hire Scala Developers
+Predicting Attentiveness to Mobile Instant Messages (ACM CHI 2014) [pdf]
+Spotify have finally started selling to businesses
+Contentful: A new API for managing and delivering content
+Shortest, simplest code that prints an unexpected obscenity
+World's first connected bicycle
+Touring Ubers Surprisingly Sober New Office.
+SEAL Commander Tells Students To Make Their Beds Every Morning
+Techview interview with Linus Torvalds
+Top Labor And Employment Law Issues When Taking Your Startup Global
+Listary  Alfred for PC's
+Securing the Internet of Things? How about securing the Internet first?
+Engineers Build Worlds Smallest, Fastest Nanomotor
+Drizly Booze Delivery Service Drinks Up $2.5M In Seed Funding
+The Reformation: Can Social Scientists Save Themselves?
+Ask HN: How do you measure your code quality?
+How Differential Steering Works
+A co-Relational Model of Data for Large Shared Data Banks
+Fine Line Seen in U.S. Spying on Companies
+There's no such thing as 'best practice' 
+Zach Holman Uses This
+Gulp, the modern front end factory (coffeescript, jade, less)
+Teen Threatened With Graduation Ban For Yearbook Quote
+How to make perfect UX a priority in Agile
+Is TDD dead? [Part III] (video)
+CTF Field Guide
+Never Lose Design Again
+How Can Social Media Add Value to Cold Calling
+Open Source Opportunities in GIS Summer School
+Terry Davis Uses This
+Assassin's Creed Pirates  Developer Challenge
+Getting Started with Bitcoin
+Search Strategies for Learning
+How to Trick the Gullible into Learning a New Programming Language
+Author of 'Breakpoint': "Facebook must shrink to survive"
+5 ways privatization is fleecing American taxpayers
+Big Brother potentially exists right now in our PCs, compliments of Intel's vPro
+All global tech giants except Nokia pay slave wages
+ Will Django, Ruby on Rails, and Node.js replace Java?
+Exploitation of Mozilla Firefox Use-After-Free Vulnerability (Pwn2Own 2014)
+Good software can go bad
+Tools to help administer your Facebook Groups
+8 Laws of Software Installation  
+Arctic Death Spiral and the Methane Time Bomb
+Ask HN: Remote work
+Show HN: Get permission to do anything
+Why I stopped using ng-grid and rolled my own with ReactJS
+The BERIpad Tablet: Open-Source Construction, CPU, OS, Applications (2013) [pdf]
+Four Darpa Projects That Could Be Bigger Than The Internet
+What is NoSQL? Four Things, Actually
+Hacking AngelList syndicates with cofounder Naval Ravikant
+Context Cards: A Peek At Facebook's 5-Year Plan
+Read Stoner Now
+Ansible Text Message Notifications with Twilio SMS
+For the Love of the URL
+Why is San Francisco public transportation so bad?
+Multiple Language Support
+What Twitter Would Really Gain From Buying SoundCloud
+Youtube to buy Twitch for $1B
+Spotify Soundtrack your brand
+EBay Shifts to Water-Cooled Doors to Tame High-Density Loads
+Have redflags and checklists taken over investing? Conversation with a VC.
+Essential Tools and Some Project Management Skills While Developing a Mobile App
+Couch Surfers and Billionaires: On the Sharing Economy
+The Stadiums of the World Cup as 3D Models
+Rails: Casting Objects as Arrays
+Scientific Laws and Theories
+Millions computers running Conputrace agent can be remotely hijacked.
+Startup Marketing: When is a Media Buy is pure Madness?
+How Getting My MBA Helped Me Thrive As an Entrepreneur
+IM services start to block unencrypted chats, including Google's
+Panspermia
+Finally, A Guide To Hosting Your Website
+AngularJS File Directive
+Famo.us/Angular
+3 Reasons Why Measuring ROI is Harder Than It Looks
+How do top programmers work?
+The code names for various subprojects within Windows 95
+Blissful UI programming with ReactiveCocoa
+"Unknown among Swedes that alcohol causes cancer"
+Homeland Security: Don't use IE due to bug
+Level3 is without peer, now what to do?
+The RSS icon was mistaken for the ASS icon
+DuckDuckGo Reimagined and Redesigned
+Uber Underlying Technologies and How It Actually Works
+New mortgage rules turning country to rentals
+HelpStack: Open source iOS customer support
+FTPloy  automatically deploy when changes are pushed to GitHub or Bitbucket
+Marc Andreessen: Tech companies are still fuming over the NSA
+The Inside Story of Oculus Rift
+Reactive Cloud Actors: An Evolvable Web of Events
+Space Hackers Prepare to Reboot 35-Year-Old Spacecraft
+Foursquare and Swarm  a risky move?
+JBoss EAP 6.3 Beta Released: WebSockets
+A replication tour de force
+Free as in beer has caused Heartbleed (and much more)
+Dashlane closes a $22m Series B funding for password and identity management
+Show HN: A Programmer's Recipe For Scraping The Web
+HTML Wireframes
+Doing what you love is selfish 
+Thinking different about customers and suppliers
+Firebird performance degradation: tests, myths and truth
+Help needed with Calculating a circle jQuery Scroll Path [StackOverflow]
+How Apple Can Solve Freemium Creep: Make a Freemium Ghetto
+10 games that would port perfectly to Project Morpheus
+Best music for work
+Mongodb in production
+Do, delegate or delete
+A Programmer And His Blobs
+ProtonMail  Secure Email, Made Simple
+When AES() =   a crypto-binary trick 
+PDF secrets  hiding and revealing secrets in PDF documents
+Autonomous Navigation for Flying Robots course 
+Frontline: United States of Secrets
+My Open Wireless Network (2008)
+Remotely Change the Display on an HP Printer to ascii art with telnet.
+Playing with Microsoft Azure CLI on mac
+Rural Studio builds brand new $20,000 houses in Alabama.
+Measles Virus Used to Cure Cancer
+Why you need to learn to code or doom your tech startup to failure
+Understanding the Wizards v. Hex Lawsuit (in Plain English)
+Show HN: Quadtree Art
+Design of a Signage Typeface
+Web services that work anywhere with email
+About Jeff Bezos's 10,000 year clock ...
+Amid a struggling Kickstarter, Harmonix reflects on Amplitude
+Generate Series in Redshift and MySQL
+New sous vide solution from Anova
+The reason airplane food tastes bad.
+New Firefox HTTP cache now enabled on Nightly builds
+What If a Self-Driving Car Gets a Ticket?
+Tokyo Reverse [video]
+3 Simple Techniques to Make APIs Easier to Use and Understand
+Hoist  Fast API based web development
+In Harm's Way
+Ask HN: How to find a project we enjoy again?
+Modern source-to-source transformation with Clang and libTooling
+Dating App Loveflutter Reboots As A More Quirky Tinder
+How did we get so busy?
+The Dyatlov Pass accident
+Obamacare reforms could see thousands of NHS nurses poached to work in the US
+Real Estate Goes Global
+Detecting Ad Blocking Extensions
+Enhancing the AVIC-5000NEX part 2
+Continuous Deployments through SSH Just Got a Lot Better
+Big Bucks: The Press Your Luck Scandal [video]
+Jsist: JavaScript Conference in Istanbul, calling for presentations
+Martini v1.0 released
+Google Launches An Instagram Account 
+Verizons new double-capacity XLTE network now covers 250 cities
+Svyft
+Agile Game Design For Humans
+Show HN: Cold Call Manager
+Elon Musk Says SpaceX Making 'Progress' Toward Mars Colony
+Show HN: bashblog, a single Bash script to create blogs
+The Visual Development of Bonsai Slice
+Meet Twitch, the video-streaming firm Google may buy for $1 billion
+Ziggy Marley To Offset Carbon Footprint Of His Latest Tour Through COTAP
+Types Construction in Scala
+How Pinterest Achieves Scalability
+Why Software Doesn't Follow Moore's Law
+XMission ISP Pete Ashdown on warrant requests and Internet privacy
+Service
+Limitations of human brain mean we may never understand the secrets of universe
+The Way of Testivus: Good advice on developer and unit testing
+iOS Devs, CoreData giving you headaches? DBAccess iOS ORM might be for you!
+Stacking Text and Icons with Font Awesome
+Marc Andreessen on the Future of Silicon Valley(s), and the Next Big Technology
+A better web font compression format: WOFF 2.0
+Canonical's cloud-in-a-box: The Ubuntu Orange Box
+Anyone out there using TFS to store iOS code?
+API Testing with Runscope
+Ask HN: Quality entrepreneur web resources?
+Show HN: Self-destructing file storage
+Googol - 10^100
+OpenWorm: so close with only an hour until the deadline
+Time Out Group buys Hugecity
+Track different events via separate calendras and sync with Google Calendar/iCal
+Bytecode for the Web
+Startup School New York Speakers
+Accordions Are not Always the Answer for Complex Content on Desktops
+Facebook is developing a video messaging app to rival Snapchat
+Show HN: KeepUs, a free app to help you watch out for your aging parents
+Nearshore Software Development in Puerto Rico: Price Advantage
+OSMTimeLapseR: visualize the edits to OSM in your community
+A New Imaging Technique Made a 3D Movie of an Entire Nervous System
+GLSL.io, an Open Collection of WebGL Transitions
+Husband gives wife a piece of his lung with the help of a 3-D printer
+All in one the most powerful php infrastructure
+Async control flow in JS using Generators and ES6 syntax
+Egypt fights looters stealing its antiquities with spacecraft and statecraft
+Help us shape the future of Data Visualization
+Four ways to find free images to use legally with Google Apps
+The Tesla and the Tent: On the Road Finally
+Data caps: The cheesy truth about bandwidth
+Google Rubik's Cube Doodle
+Django Update  2014-05-04 to 2014-05-17
+Cisco CEO lashes out at NSA, tells Obama to stop bugging IT hardware
+Ask HN: Anyone using the Opa Framework?
+ How do I get to the next level of engineering management?
+Minimum Viable Product and Why Velocity Matters
+Inside the US governments war on tech support scammers
+The woman who saw beneath oceans
+Libcppa: A C++11 Actor Model Library
+SubList: Email subscriptions for blogs
+Vaccines, Thimerosal, MMR, Mercury Not Associated With Autism
+Congratulations, class of 2014: Youre totally screwed 
+Study of 1.3 Million Kids Reveals Vaccines Aren't Associated with Autism
+How Google Really Thinks About Linkspam
+Octotree  Browser extensions to display GitHub code in tree format
+The godfather of wearables
+Uchiwa  a simple dashboard for the Sensu monitoring framework, built with Node.js
+Statically checking Python
+Loss of Y chromosome can explain higher cancer risk for men
+Three reasons you should not use Martini
+Aphorisms, Rules and Heuristics - Nassim Nicholas Taleb[PDF]
+Enclosed tube maglev system tested in China
+Principles for Running Your Business (Leo Babauta)
+"For me JavaScript is a lost cause" -Douglas Crockford
+Free as in we own your IP
+[Unpopular opinion] Mozilla and DRM: Why the Fuss?
+Top 5 Absurd Space Myths
+Technologies of Future Governments and Electorates: Artificial Intelligence
+How to become a Good Theoretical Physicist
+Raspberry Pi controlled slot car racing
+Dane Maxwell on Idea Extraction
+Versioning your code? Why not?
+How Does TDD Affect Design?
+Using Frankencerts to Find Flaws in SSL Certificate Verification
+Ask HN: Partsline.com is looking for tech co-founder
+Learning Romanian
+Many strict herbivores will eat animal matter on occasion
+Why technologists want to secede
+Entire Id software tech team moved to OculusVR over internal issues 
+Can UDP traverse NATs better by Faking TCP?
+Solar Roadways is funding  and why you should care
+Ask HN: How to tell your friend his idea sucks
+Turn keyboard LEDs into disk activity indicators
+Amazon Smile
+Amazon's Hypocrisy on Net Neutrality
+Harvard and MIT Students Launch NSA-Proof Email Service
+Current Redbox Movies with IMDB Ratings
+3D Printed Vehicles Meet US Grand Challenge
+Languages for teaching programming 
+Ask HN: How much faster can asm.js (realistically) get?
+Service outage at ninya.io  what happened
+How to Install Android KitKat 4.4 on your PC and Laptop
+Li Ka-shing boosts Bitcoin investments amid currency crackdown in China
+TechMafiaNet: Israel Defense  Guardium Unmanned Ground Vehicle (UGV)
+Quill: a cross browser rich text editor with an API
+Game of Thrones books are written on a DOS computer not connected to Internet
+Mozilla relents, will implement DRM
+"You look ridiculous in that outfit"
+Longterm storage: NAS+HDDs+CrashPlan (for ARM) vs. costly Amazon Glacier [$$?]
+Magento Marketplace web services api
+What does the Guardian have that Twitter doesn't?
+The missing step to all Productivity Advices  Disable Notifications
+Giant of Castelnau
+Popular subreddits have predictable cycles of virality
+Discussions on creating the ATutor API  Community Bonding Period (GSoC 2014)
+Ask HN: What new gTLDs are available now and where should I buy them?
+People Are Morally Different When Speaking a Second Language
+Startup lessons from the worst drink in Chicago
+Apple sued over disapearing iMessage texts sent to Android users
+Navigator.sendbeacon(url,data);
+The Mythical Later of Software Development
+Auto-expiring TODO notes in Ruby
+Pyrasite: Injecting code into running Python processes
+Programming Language Popularity on GitHub and Stack Overflow
+Apple and Google dismiss patent lawsuits
+Returns to Cognitive and Social Ability: Entrepreneurs versus Employees(2008)
+Teradeep, Visual Intelligence
+How to join Y Combinator as we work on this product(weavi.com) in China now?
+Swiss to vote on $25 an hour minimum wage
+U.S.-Russia tension could affect space station, satellites
+How Not To Get Your First Freelancing Client
+Taking Showers in the Dark
+Coding in color
+Only five countries actually want to ban killer robots
+The perfect shape
+Nginx as a WebSockets Proxy
+How To Convince High-Paid Googlers That They Need To Work For Your Startup
+Building Pinterest's Interest Platform
+How the FBI Cracked a Chinese Spy Ring
+The first unGoogleable and Scroogled [social?] network
+Stanford now recommends passphrases instead of passwords
+Show HN: Tool to turn your HTML into a collapsible tree
+Google Services Experiencing Issues  How are You Holding Up?
+Pippin Barr: The Game Designer is Present
+BYU researchers create tiny nano-device in newest gene therapy advance
+Other women snubbed me until I hit it big
+Bitcoin bank entices mom and pop with insurance, fraud checks and no fees
+Why Did We Let Them Invest? (5 Basics of Seed Round Construction)
+Devops Against Humanity Cards
+15 Sorting Algorithms in 6 Minutes
+Lighter tracks your smoking habits to shame you to quit
+Clojure, Postgres, JSON
+Collect your naysayers
+Yelp is Down
+Start with Kindling
+Ask HN: How does your company record tech talks?
+I Dont Want to Hire Women
+The Impact Engine accelerator opens applications for 3rd class
+Do You Know What Your Kids Think of Your Work Addiction?
+Google I/O 2014 schedule
+An Algorithm for Seed Round Valuations
+Genetic tracking identifies cancer stem cells in human patients
+High Performance Text Processing  Machine Learning Tutorial
+Wired 2014 Main Stage Speakers
+Ever wanted to play "Push It" by Salt-N-Pepa every time you 'git push'?
+Mysterious Amazon locker has appeared in the middle of downtown San Francisco
+Elon Musk: Gigafactory will take battery production 'to another level'
+Hybrid toys: A new era of toys
+Mozilla To Sell Ads In Firefox
+Learn a Lisp with Python
+BEM  Technology for creating web applications
+The most frequent Facebook profile picture seems to be the golden tulips one.
+News Worm 3.0 Beta 1 is out
+Epoch  The Fastly Charting Library
+A Million Meals Free for Children
+Obsidian Menu Bar
+TakeItApart  Turn screws. Void warranties. Open minds.
+State Watchdog threatens to block Twitter under new blogger bill
+Looking for RoR developer in Hamburg
+Gdel, Escher, Bach: An Eternal Golden Braid
+Oracle's Ellison nails cloud computing (2008)
+Transparency Reports Database
+Meet Pasture Scout, the Airbnb for Grazing Cattle
+Organic Search Acquisition in 2014 [infographic]
+Show HN: a minimal iOS arcade, "Flea Flee"
+Multipurpose rss reader, live stream, mashup, aggregation web application
+Why Open Source Misses the Point of Free Software
+Is This Mind-Controlled Exoskeleton Science or Spectacle?
+Web Developers of Earth, your attention please
+What are some success stories that resulted from Crowdsourcing/Sharing Economy?
+What the WELL's Rise and Fall Tell Us About Online Community
+DJI Phantom drones refuse to fly near airports
+Alphera financial services
+Aardman Animation announces kids' programming competition
+StarNet launches 1Gbps Internet in Moldova for ~30$/month
+Zero to One, by Peter Thiel with Blake Masters
+Round 9 results  TechEmpower Framework Benchmarks
+Oops Something Bad Happened  Stack Exchange has intermittent issues
+Mozilla breaks our hearts, adds DRM to Firefox
+Apple integrates LLVM compiler to boost WebKit JavaScript performance
+Neil Postman: Things We Need to Know About Technological Change (1998) [pdf]
+Stack Overflow is down
+$10 in Bitcoin to Spend for New Circle Customers
+Jaryd Carolin talks about AngularJS
+Docker Tutorial- what a Dockerfile is, what it is capable of doing.
+Geeks and money
+Teaching is harder than working in high tech
+Rumor: Baidu Hires Stanford AI Lab Director
+Google Play Store Adds Wallet Rival PayPal As A Payments Option
+Optimizely is vulnerable to spies
+Ember.js Recipes: On-Demand Record Details With Ember-Data
+Webstock: Mike Monteiro  How Designers Destroyed the World
+How I Picked My Company Name
+What do you use scala for?
+Show HN: BThread  Blockchain thread messaging and blog posting
+Capital in the 71st Century
+Michael Lewis' essay about wasting time
+The little mocker
+Got Sleep? 20 More Minutes Boosts Your Brain Power
+CONPLAN 8888-11 "Counter-Zombie Dominance"
+Show HN: New data visualization tool and why we made it
+Guacamole released: an ODM for ArangoDB for rails
+Staged Rollouts for iOS
+Mind-controlled robotic suit to debut at World Cup 2014
+Does anyone code on their tablet to go? What do you use?
+The Psychology of Color in Marketing and Branding
+Amazon's Growth Impacting Seattle Dating Scene
+Jerk not Speed
+An Oculus Rift For Chickens
+Google to release diversity data about its workforce
+Too Busy? Or Just Right? 
+The FCC doesnt have to authorize Internet fast lanestheyre already legal
+Retailers will share data to avoid getting hacked
+Show HN: Cadet, a jRuby wrapper for Neo4j
+Ask HN: Any career benefits if I go from PM to PM+dev?
+Show HN: Vimusical  make music while using Vim [video]
+The Right to Forget a Genocide
+What is Idiomatic Programming?
+Betting the Farm on MongoDB (SQL Server to MongoDB in prod with zero downtime)
+How  To Speed Up Download Times For Your Web Pages
+Forget DRY. Try DROP. Don't Repeat Other People
+Corporate venture investing heats up  and that might not be cool
+WeChat Comes Under Fire for Rumors, Fake Ads
+EBays Donahoe Drops More Bitcoin Hints
+Heaven is for neuroscience: How the brain creates visions of God
+Are synchronized wacky oxide chips the key to brain-like computers?
+Modern Web Essentials Using JavaScript and HTML5 
+2 Step Verification as a Service: 2StepsForApps
+The FCC has voted to accept Chairman Tom Wheeler's proposal on net neutrality
+Google faces deluge of requests to wipe details from search index
+Atom  A hackable text editor for the 21st Century. WTF GitHub?
+Social pressures force Tunisia women to fake virginity
+Registries and Registrars Discuss Who is Responsible for New gTLD Marketing
+New Funding for OpenDNS
+Ask PG: Can you do it again?
+Work with AngularJS  CA, NY and Remote Opportunities Available :)
+How to build a Bitcoin Wallet
+Evan Williams after blogger and twitter: Medium
+Evaluation-guided techniques for Machine Learning
+Dual Carbon batteries
+MakerBot brings "Mr. Snuffleupagus" from Sesame Street to 3D printing
+OnePlus releases 300$ 64-GB "flagship killer" Android smartphone
+Why I joined Creative Commons  Ryan Merkley
+The beta is open. Join now. 300 seats left
+Throwback: A Framework for Testing Legacy PHP Applications
+How Azure Web Sites Sucked in Production
+Spike And Die: Why Products Created By Ad Agencies Fail
+FSF condemns partnership between Mozilla and Adobe to support DRM
+Ask HN: members of distributed teams, how do you cope with the loneliness?
+Now You Can Text 911 In An Emergency
+60,000 jobs VS a killing machine. 
+Predicting Stock Swings with PsychSignal, Quandl and BigML
+A tool to help designers make beautiful Android apps
+Adobe ID login is down
+Why Atom Won't Replace Vim
+The AI behind Watson
+2+2=What? Parents rail against Common Core math
+Edward Snowden: Here's how we take back the Internet
+Getting Realtime Traffic Data (Yandex)
+Mozilla working with Adobe to introduce DRM into Firefox
+Working In the Unknown. 3 Steps To Coping With a Job You Dont Know Shit About
+Machine learning researcher Yann LeCun is doing an AMA on Reddit
+Pure: A set of small, responsive CSS modules
+On DRM and Firefox
+Ask HN: Upvote on stories on the "new" page
+Sea Lions Are Starving to Deathand We Dont Know Why
+Live coding ScalaJS
+Mike Tyson and the solo founder
+Samsung reports it has sold 11M Galaxy S5 since launch
+How a Ruby Case Statement Works and What You Can Do With It (2009)
+'Big Bang' Isn't Porn, So Why Is China Censoring Hollywood?
+Physics students use quad-copter drone to map street lights and reduce crime
+GoDaddy SHA-256 Certificates Broken
+Google stops supporting Chrome on hardware it judges "outdated"
+The FCC is Going to Ruin the Internet This Week
+The 10-year-old who offered money to India's central bank
+Building an Email List to Build Your Ecommerce Business
+To Serve Users
+Removing API secrets from your public Android source code
+Problems with Evergreen Content
+What's the best time to submit to Reddit? Using Go.
+George R.R. Martin Tells Conan His Secret Weapon: a DOS Computer
+Ask HN: Porting Browser Game to Android and Apple store good idea?
+Ask FCC to reclassify ISPs as Title Two Common Carriers
+Maintainable CSS with BEM
+Shame on Vinod Khosla
+Building manageable server infrastructures with Puppet
+Re: Things that drive me nuts about OpenGL
+How to Make a Marriage Work
+Coda 2.5 and the Mac App Store
+Is TDD dead?
+Square looks to add value to digital receipts
+Ask HN: how to change words of android's default langs?
+The curse of creativity
+Ask HN: What are the first websites you visit in the morning?
+Game of Thrones author George RR Martin: 'Why I still use DOS'
+WordPress for Musicians and Bands
+Machine learning medical search engine launches
+Be wary of the no money down iPhone 6
+When API Documentation Is So Bad that Its Good, Part 3
+The Man Who Preserved Decades of NBA History
+Show HN: HelpStack.io  open-source support SDK for iOS
+Show HN: We open sourced our social website (built with Play) and mobile apps
+Debug minified or converted JS sources
+Lawrence H. Summers for Democracy Journal: The Inequality Puzzle
+V.C. Firm Names Robot To Board of Directors
+Jest  Painless JavaScript Testing
+Adding a current viewers counter to any web page in PHP
+Where do you suck? Where does it matter?
+Scala and The Winning-est MLB Nighttime Saturday Team
+How I accidentally got access to the secret keys to NBCs websites
+How we built the wrong feature
+Elon Musk Tells The Oatmeal Hes Happy To Help Fund Tesla Museum
+Anonymous poetry, drawings, unfinished works, journal entries, etc. Revived.
+Now is the time to stand up and defend net neutrality
+Big Water: The California Dream is made possible by old water and big water
+#Getstarted2014 offer $70k of dev and marketing for best startup idea
+Someone Finally Designed a Better Disposable Coffee Cup Lid
+Facebook to email providers: Use STARTTLS
+Read, Kids, Read
+Show HN: Sleio  Nonprofit Google Alternative
+Comparison Between Chess And Go
+API monitoring is more important than ever.
+Breathing City
+Tech to Read 700 Words Per Minute With No Training
+New Firefox Sync and Master Passwords are mutually exclusive
+A six-part reality series about TechStars on Bloomberg TV
+ Belgium Hacker Agenda 
+SIGGRAPH 2014 : Technical Papers Preview Trailer [video]
+Many sites reusing Heartbleed-compromised private keys
+Drop the distinction between mutable and immutable local variables in Rust
+Powerpoint Killer Bunkr.me raises 1 Million 1 year after launch
+Ore launches KickStarter for their wooden wireless smartphone charger
+JINS MEME  smart glasses you want to wear 
+Supermassive Black Hole At The Centre Of Galaxy May Be Wormhole In Disguise
+Why Dysfunctional Programming Matters
+FCC vote on 'net neutrality' will kick off long battle
+A Startup Scene That Seems Out of This World
+Review of the First Three Johns Hopkins Coursera Data Science Courses
+Websockets
+The secrets that human resources keeps from you
+The Pentagon Has a Plan to Stop the Zombie Apocalypse. Seriously.
+New way to capture design of your project
+Grill  OLAP cubes for Hadoop
+PlanOut:A Python-based toolkit and language for online field experimentation
+How Uber could scale faster?
+Programming for Social Impact
+Im a software engineer at a startup, and Im clueless about how to get a date.
+LIX  The Smallest 3D Printing Pen in the World
+Papers  Desktop app for finding, organizing, citing academic research
+Tech Firms' Cash Piles Cool Fears of a Meltdown
+Alternative Approach to SolarCoin and Renewable Cryptos
+Twin Peaks Ipsum
+Why Uber And Airbnb Might Be In Big Trouble
+Ask PG: Are you ever coming back?
+Airbnb Won't Be Forced to Give Up User Records
+Lens free camera features 200 micron wide sensor
+"If you're over 30, you're a slow old man"  Zuckerberg. He turns 30 tomorrow.
+Sperre  Anonymous P2P Messaging
+Is there an automated way to gague Facebook vs. Website performance?
+Reshare App: Translation for International News
+The $3.2B Reason Why Apple is Buying Beats
+One Mistake: The Fall of Mediabridge
+GitHub Style Guide
+Software Flow Control
+Moodle Course Design Best Practices
+Estonian Electoral Committee comments on alleged vulnerabilities of e-voting
+MS working with FBI
+Judge Quashes Airbnb Subpoena, Attorney General Will Narrow Request
+Grow Fast Or Die Slow
