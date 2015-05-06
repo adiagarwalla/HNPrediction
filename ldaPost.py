@@ -13,8 +13,7 @@ else:
 number_topics = 15
 number_iterations = 200
 
-# reading a bag of words file back into python. The number and order
-# of emails should be the same as in the *samples_class* file.
+# reading a bag of words file back into python.
 def read_bagofwords_dat(myfile, numofposts):
     bagofwords = np.fromfile(myfile, dtype=np.uint8, count=-1, sep="")
     bagofwords = np.reshape(bagofwords,(numofposts,-1))
