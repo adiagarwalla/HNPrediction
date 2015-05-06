@@ -11,7 +11,7 @@ else:
 
 
 number_topics = 15
-number_iterations = 100
+number_iterations = 200
 
 # reading a bag of words file back into python. The number and order
 # of emails should be the same as in the *samples_class* file.
@@ -103,14 +103,22 @@ def main():
 
         print "Read test titles file"
 
-        for topics in range(5, 51, 3):
+
+        best = -float('Inf')
+        best_num_topics = 5
+        for topics in range(5, 30, 5):
         	print "--------------------------------------------------"
-        	print "Number of topics is = " + topics
+        	print "Number of topics is = " + str(topics)
         	model = lda.LDA(n_topics=topics, n_iter=number_iterations)
         	model.fit(train)
         	print model.loglikelihood()
-        	
+        	if model.loglikelihood() > best:
+        		best_num_topics = topics
+        		best = model.loglikelihood()
+        
+        print "best number of topics =" + str(best_num_topics)
+        number_topics = best_num_topics	
 
-        # ldaPost(train, number_topics, number_iterations, train_vocab, train_titles, test, test_titles)
+        ldaPost(train, number_topics, number_iterations, train_vocab, train_titles, test, test_titles)
 
 main()
