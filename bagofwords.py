@@ -9,7 +9,8 @@ import getopt
 import codecs
 import time
 import json
-
+import requests
+from HTMLParser import HTMLParser
 
 chars = ['{','}','#','%','&','\(','\)','\[','\]','<','>',',', '!', '.', ';', 
 '?', '*', '\\', '\/', '~', '_','|','=','+','^',':','\"','\'','@','-']
@@ -31,6 +32,23 @@ def union(a, b):
     """ return the union of two lists """
     return list(set(a) | set(b))
 
+
+class MLStripper(HTMLParser):
+    def __init__(self):
+        self.reset()
+        self.strict = False
+        self.convert_charrefs= True
+        self.fed = []
+    def handle_data(self, d):
+        self.fed.append(d)
+    def get_data(self):
+        return ''.join(self.fed)
+
+s = MLStripper()
+
+def strip_tags(html):
+    s.feed(html)
+    return s.get_data()
 
 
 # reading a bag of words file back into python. The number and order
@@ -67,6 +85,16 @@ def tokenize_corpus(inputf, train=True):
             samples.append(story["title"]) 
 
             raw = story["title"]
+            if story["story_text"] != "" and story["story_text"] is not None:
+                raw += "\n" + story["story_text"]
+            if story["url"] != "" and story["url"] is not None:
+                try:
+                    page = requests.get(story["url"])
+                    raw += "\n" + strip_tags(page.text)
+                except requests.exceptions.RequestException as e:
+                    print e
+                    continue
+
             # remove noisy characters; tokenize
             raw = re.sub('[%s]' % ''.join(chars), ' ', raw)
             tokens = word_tokenize(raw)
@@ -84,6 +112,15 @@ def tokenize_corpus(inputf, train=True):
                     except:
                         words[t] = 1
             docs.append(tokens)
+            if len(docs) == 1000:
+                print "finished 1000"
+            if len(docs) == 3000:
+                print "finished 3000"
+            if len(docs) == 5000:
+                print "finished 5000"
+            if len(docs) == 7000:
+                print "finished 7000"
+
     if train == True:
         return(docs, classes, samples, words)
     else:
@@ -122,7 +159,7 @@ def main(argv):
     inputf = ''
     vocabf = ''
     start_time = time.time()
-    word_count_threshold = 30
+    word_count_threshold = 100
 
     try:
         opts, args = getopt.getopt(argv,"i:v:",["ifile=","vocabfile="])
