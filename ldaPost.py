@@ -103,6 +103,14 @@ def main():
 
         print "Read test titles file"
 
-        ldaPost(train, number_topics, number_iterations, train_vocab, train_titles, test, test_titles)
+        for topics in range(5, 51, 3):
+        	print "--------------------------------------------------"
+        	print "Number of topics is = " + topics
+        	model = lda.LDA(n_topics=topics, n_iter=number_iterations)
+        	model.fit(train)
+        	print model.loglikelihood()
+        	
+
+        # ldaPost(train, number_topics, number_iterations, train_vocab, train_titles, test, test_titles)
 
 main()
