@@ -32,7 +32,7 @@ def ldaPost(bagOfWords, topics, iterations, vocab, trainTitles, testBagOfWords, 
 	n = 5
 	for i, topic_dist in enumerate(topic_word):
 		topic_words = np.array(vocab)[np.argsort(topic_dist)][:-(n+1):-1]
-		print('*Topic {}\n- {}'.format(i, ' '.join(topic_words)))
+		print('*Topic {}\n {}'.format(i, ' '.join(topic_words)))
 
 	#Distribution over topics for each post
 	post_topic = model.doc_topic_
