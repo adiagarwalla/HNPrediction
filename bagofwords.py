@@ -63,7 +63,8 @@ def tokenize_corpus(inputf, train=True):
         for line in f:
             story = json.loads(line) #separate story on each line
             classes.append(get_class(story["points"])) # classification
-            samples.append(story["objectID"]) 
+            #samples.append(story["objectID"]) 
+            samples.append(story["title"]) 
 
             raw = story["title"]
             # remove noisy characters; tokenize
@@ -169,7 +170,8 @@ def main(argv):
     outfile.write("\n".join(classes))
     outfile.close()
     outfile= open(outputf+"_samples.txt", 'w')
-    outfile.write("\n".join(samples))
+    sample_str = "\n".join(samples)
+    outfile.write(sample_str.encode('ascii', 'ignore'))
     outfile.close()
     print str(time.time() - start_time)
 
