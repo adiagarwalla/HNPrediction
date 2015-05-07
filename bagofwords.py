@@ -59,7 +59,7 @@ def read_bagofwords_dat(myfile, numofemails):
     return bagofwords
 
 def get_class(points):
-    thresholds = [500, 200, 100, 50, 20, 10]
+    thresholds = [100, 10]
     i = len(thresholds) 
     for threshold in thresholds:
       if points >= threshold:
@@ -85,15 +85,15 @@ def tokenize_corpus(inputf, train=True):
             samples.append(story["title"]) 
 
             raw = story["title"]
-            if story["story_text"] != "" and story["story_text"] is not None:
-                raw += "\n" + story["story_text"]
-            if story["url"] != "" and story["url"] is not None:
-                try:
-                    page = requests.get(story["url"])
-                    raw += "\n" + strip_tags(page.text)
-                except requests.exceptions.RequestException as e:
-                    print e
-                    continue
+            # if story["story_text"] != "" and story["story_text"] is not None:
+            #     raw += "\n" + story["story_text"]
+            # if story["url"] != "" and story["url"] is not None:
+            #     try:
+            #         page = requests.get(story["url"])
+            #         raw += "\n" + strip_tags(page.text)
+            #     except requests.exceptions.RequestException as e:
+            #         print e
+            #         continue
 
             # remove noisy characters; tokenize
             raw = re.sub('[%s]' % ''.join(chars), ' ', raw)
