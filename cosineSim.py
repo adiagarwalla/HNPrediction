@@ -17,7 +17,7 @@ def read_bagofwords_dat(myfile, numofposts):
     bagofwords = np.reshape(bagofwords,(numofposts,-1))
     return bagofwords
 
-def cosSim(trainBagOfWords, testBagOfWords):
+def cosSim(trainBagOfWords, testBagOfWords, trainTitles, testTitles):
 	#Tf-idf conversion
 	tfidf_transformer = TfidfTransformer()
 
@@ -36,9 +36,12 @@ def cosSim(trainBagOfWords, testBagOfWords):
 		max_indices = np.argsort(x[0])[-25:][::-1]
 		max_values = heapq.nlargest(25, x[0])
 		if (count < 10):
-			print testVector
-			print "Top 25 similar indices for this post " + str(max_indices)
-			print "Top 25 similar values for this post " + str(max_values)
+			print testTitles[count]
+			# print "Top 25 similar indices for this post " + str(max_indices)
+			print "Top 25 similar posts for this post "
+			for similarIndex in max_indices:
+				print similarIndex
+				print trainTitles[similarIndex]
 		count += 1
 
 def main():
@@ -49,10 +52,24 @@ def main():
 
 	print "Read Bag of words files"
 
+	file_titles = "train_"+file_extension+"_samples.txt"
+	train_titles = []
+	with open(file_titles) as f:
+		train_titles = f.readlines()
+
+	print "Read train titles file"
+
+	file_test_titles = "test_"+file_extension+"_samples.txt"
+	test_titles = []
+	with open(file_test_titles) as f:
+		test_titles = f.readlines()
+
+	print "Read test titles file"
+
 	# print "Converted numpy bag of words to sparse matrices"
 	# train_sparse = csr_matrix(train)
 	# test_sparse = csr_matrix(test)
 
-	cosSim(train, test)
+	cosSim(train, test, train_titles, test_titles)
 
 main()
