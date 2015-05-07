@@ -31,12 +31,16 @@ def main ():
 
 	model_svm = svm.LinearSVC()
 	model_svm.fit(train_x, train_y)
+
 	print "SVM on bag of words:", model_svm.score(test_x, test_y)
+	predictions = model_svm.predict(test_x)
+
+
 
 	# run again on LDA transformed data
 	model_lda = lda.LDA(n_topics=num_topics, n_iter=num_iterations)
 	model_lda.fit_transform(train_x)
-	model_lda.transform(train_y)
+	model_lda.transform(test_x)
 	model_svm = svm.LinearSVC()
 	model_svm.fit(train_x, train_y)
 	print "SVM on LDA transformed:", model_svm.score(test_x, test_y)
