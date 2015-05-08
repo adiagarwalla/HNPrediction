@@ -20,7 +20,7 @@ def read_bagofwords_dat(myfile, numofposts):
     bagofwords = np.reshape(bagofwords,(numofposts,-1))
     return bagofwords
 
-def cosSim(trainBagOfWords, testBagOfWords, trainTitles, testTitles, trainClasses):
+def cosSim(trainBagOfWords, testBagOfWords, trainTitles, testTitles, trainClasses, testClases):
 	#Tf-idf conversion
 	tfidf_transformer = TfidfTransformer()
 
@@ -60,16 +60,39 @@ def cosSim(trainBagOfWords, testBagOfWords, trainTitles, testTitles, trainClasse
 				factor = 100
 
 			sumPredict += max_values_norm_nonan[ind] * factor
-			results.append(sumPredict)
+		
 			# print "Top 25 similar indices for this post " + str(max_indices)
 			# print "Top 25 similar posts for this post "
 			# for similarIndex in max_indices:
 			# 	print similarIndex
 			# 	print trainTitles[similarIndex]
 		count += 1
-	print x[0].size
-	print count
-	print results
+		results.append(sumPredict)
+
+	final_results = []
+	for result in results:
+		if result < 10:
+			final_results.append("0")
+		elif result < 100:
+			final_results.append("1")
+		else:
+			final_results.append("2")
+
+	print "Final results done"
+	print len(final_results)
+
+	accuracy_count = 0
+	for i, value in enumerate(final_results):
+		if value == testClases[i]:
+			accuracy_count +=1
+
+	print final_results
+	print accuracy_count
+	print float(accuracy_count)/num_test
+
+	outfile= open("cosine_prediction_"+file_extension+"_classes.txt", 'w')
+	outfile.write("\n".join(final_results))
+	outfile.close()
 
 def main():
 	if file_extension == "100k":
@@ -85,26 +108,34 @@ def main():
 	file_titles = "train_"+file_extension+"_samples.txt"
 	train_titles = []
 	with open(file_titles) as f:
-		train_titles = f.readlines()
+		train_titles = [line.rstrip() for line in f]
 
 	print "Read train titles file"
 
 	file_test_titles = "test_"+file_extension+"_samples.txt"
 	test_titles = []
 	with open(file_test_titles) as f:
-		test_titles = f.readlines()
+		test_titles = [line.rstrip() for line in f]
 
 	print "Read test titles file"
 
 	file_train_classes = "train_"+file_extension+"_classes.txt"
 	train_classes = []
 	with open(file_train_classes) as f:
-		train_classes = f.readlines()
+		train_classes = [line.rstrip() for line in f]
 
+	file_test_classes = "test_"+file_extension+"_classes.txt"
+	test_classes = []
+	with open(file_test_classes) as f:
+		test_classes = [line.rstrip() for line in f]
+
+	print "Read test classes file whose length is"
+	print len(test_classes)
+	
 	# print "Converted numpy bag of words to sparse matrices"
 	# train_sparse = csr_matrix(train)
 	# test_sparse = csr_matrix(test)
 
-	cosSim(train, test, train_titles, test_titles, train_classes)
+	cosSim(train, test, train_titles, test_titles, train_classes, test_classes)
 
 main()
