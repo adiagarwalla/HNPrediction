@@ -33,22 +33,22 @@ def union(a, b):
     return list(set(a) | set(b))
 
 
-class MLStripper(HTMLParser):
-    def __init__(self):
-        self.reset()
-        self.strict = False
-        self.convert_charrefs= True
-        self.fed = []
-    def handle_data(self, d):
-        self.fed.append(d)
-    def get_data(self):
-        return ''.join(self.fed)
+# class MLStripper(HTMLParser):
+#     def __init__(self):
+#         self.reset()
+#         self.strict = False
+#         self.convert_charrefs= True
+#         self.fed = []
+#     def handle_data(self, d):
+#         self.fed.append(d)
+#     def get_data(self):
+#         return ''.join(self.fed)
 
-s = MLStripper()
+# s = MLStripper()
 
-def strip_tags(html):
-    s.feed(html)
-    return s.get_data()
+# def strip_tags(html):
+#     s.feed(html)
+#     return s.get_data()
 
 
 # reading a bag of words file back into python. The number and order
@@ -67,12 +67,15 @@ def get_class(points):
       i = i - 1
     return str(0)
 
-def tokenize_corpus(inputf, train=True):
+
+
+def tokenize_corpus(inputf, comments, train=True):
     porter = nltk.PorterStemmer() # also lancaster stemmer
     wnl = nltk.WordNetLemmatizer()
     stopWords = stopwords.words("english")
     classes = []
     samples = []
+    ids = []
     docs = []
     if train == True:
         words = {}
@@ -83,17 +86,10 @@ def tokenize_corpus(inputf, train=True):
             classes.append(get_class(story["points"])) # classification
             #samples.append(story["objectID"]) 
             samples.append(story["title"]) 
-
+            ids.append(story["objectID"])
             raw = story["title"]
-            # if story["story_text"] != "" and story["story_text"] is not None:
-            #     raw += "\n" + story["story_text"]
-            # if story["url"] != "" and story["url"] is not None:
-            #     try:
-            #         page = requests.get(story["url"])
-            #         raw += "\n" + strip_tags(page.text)
-            #     except requests.exceptions.RequestException as e:
-            #         print e
-            #         continue
+            #raw += " " + comments[story["objectID"]]
+            #print raw
 
             # remove noisy characters; tokenize
             raw = re.sub('[%s]' % ''.join(chars), ' ', raw)
@@ -112,19 +108,12 @@ def tokenize_corpus(inputf, train=True):
                     except:
                         words[t] = 1
             docs.append(tokens)
-            if len(docs) == 1000:
-                print "finished 1000"
-            if len(docs) == 3000:
-                print "finished 3000"
-            if len(docs) == 5000:
-                print "finished 5000"
-            if len(docs) == 7000:
-                print "finished 7000"
+
 
     if train == True:
-        return(docs, classes, samples, words)
+        return(docs, classes, samples, ids, words)
     else:
-        return(docs, classes, samples)
+        return(docs, classes, samples, ids)
         
 
 def wordcount_filter(words, num=5):
@@ -158,35 +147,44 @@ def find_wordcounts(docs, vocab):
 def main(argv):
     inputf = ''
     vocabf = ''
+    commentf = 'comments.txt'
     start_time = time.time()
-    word_count_threshold = 100
+    word_count_threshold = 50
 
     try:
-        opts, args = getopt.getopt(argv,"i:v:",["ifile=","vocabfile="])
+        opts, args = getopt.getopt(argv,"i:v:",["ifile=","vocabfile=")
     except getopt.GetoptError:
-        print 'python bagofwords.py -i <ifile> -v <vocabulary>'
+        print 'python bagofwords.py -i <ifile> -v <vocabfile>'
         sys.exit(2)
 
 
     for opt, arg in opts:
         if opt == '-h':
-            print 'bagofwords.py -i <ifile> -v <vocabulary>'
+            print 'bagofwords.py -i <ifile> -v <vocabfile> '
             sys.exit()
         elif opt in ("-i", "--ifile"):
             inputf = arg
         elif opt in ("-v", "--vocabfile"):
             vocabf = arg
+
 	 
     outputf = inputf[:-4]
+    comments = dict()   
+    commentfile = open(commentf, 'r')
+    for line in commentfile:
+        temp = line.split()
+        id = int(temp[0])
+        comments[id] =  " ".join(temp[1:])
+    commentfile.close()
 
     if (not vocabf):
-        (docs, classes, samples, words) = tokenize_corpus(inputf, train=True)
+        (docs, classes, samples, ids, words) = tokenize_corpus(inputf, comments, train=True)
         vocab = wordcount_filter(words, num=word_count_threshold)
     else:
         vocabfile = open(vocabf, 'r')
         vocab = [line.rstrip('\n') for line in vocabfile]
         vocabfile.close()
-        (docs, classes, samples) = tokenize_corpus(inputf, train=False)
+        (docs, classes, samples, ids) = tokenize_corpus(inputf, comments, train=False)
 
     bow = find_wordcounts(docs, vocab)
     #sum over docs to see any zero word counts, since that would stink.
@@ -210,6 +208,10 @@ def main(argv):
     sample_str = "\n".join(samples)
     outfile.write(sample_str.encode('ascii', 'ignore'))
     outfile.close()
+    idfile = open(outputf + "_ids.txt", "w")
+    idfile.write("\n".join(ids))
+    idfile.close()
+
     print str(time.time() - start_time)
 
 if __name__ == "__main__":
