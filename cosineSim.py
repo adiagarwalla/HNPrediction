@@ -5,7 +5,7 @@ from scipy.sparse import csr_matrix
 import heapq
 import math
 
-file_extension = "10k"
+file_extension = "100k"
 if file_extension == "100k": 
 	num_train = 89961
 	num_test = 10039
@@ -68,6 +68,8 @@ def cosSim(trainBagOfWords, testBagOfWords, trainTitles, testTitles, trainClasse
 			# 	print trainTitles[similarIndex]
 		count += 1
 		results.append(sumPredict)
+		if count == 750:
+			break
 
 	final_results = []
 	for result in results:
@@ -88,7 +90,7 @@ def cosSim(trainBagOfWords, testBagOfWords, trainTitles, testTitles, trainClasse
 
 	print final_results
 	print accuracy_count
-	print float(accuracy_count)/num_test
+	print float(accuracy_count)/750
 
 	outfile= open("cosine_prediction_"+file_extension+"_classes.txt", 'w')
 	outfile.write("\n".join(final_results))
