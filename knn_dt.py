@@ -3,7 +3,7 @@ from sklearn import tree
 from sklearn.cluster import KMeans
 import numpy as np
 
-file_extension = "10k"
+file_extension = "100k"
 
 if file_extension == "100k": 
 	num_train = 89961
@@ -31,8 +31,8 @@ def main ():
 	test_y = [int(l) for l in file_test_target.readlines()]
 
 	models = [
-		#("KNN", KNeighborsClassifier(n_neighbors = num_neighbors)), 
-		("DT", tree.DecisionTreeClassifier())
+		#("knn", KNeighborsClassifier(n_neighbors = num_neighbors)), 
+		("dt", tree.DecisionTreeClassifier())
 		]
 
 	for (name, model) in models:
