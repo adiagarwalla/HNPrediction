@@ -33,24 +33,6 @@ def union(a, b):
     return list(set(a) | set(b))
 
 
-# class MLStripper(HTMLParser):
-#     def __init__(self):
-#         self.reset()
-#         self.strict = False
-#         self.convert_charrefs= True
-#         self.fed = []
-#     def handle_data(self, d):
-#         self.fed.append(d)
-#     def get_data(self):
-#         return ''.join(self.fed)
-
-# s = MLStripper()
-
-# def strip_tags(html):
-#     s.feed(html)
-#     return s.get_data()
-
-
 # reading a bag of words file back into python. The number and order
 # of emails should be the same as in the *samples_class* file.
 def read_bagofwords_dat(myfile, numofemails):
@@ -84,11 +66,15 @@ def tokenize_corpus(inputf, comments, train=True):
         for line in f:
             story = json.loads(line) #separate story on each line
             classes.append(get_class(story["points"])) # classification
-            #samples.append(story["objectID"]) 
+
             samples.append(story["title"]) 
-            ids.append(story["objectID"])
+            obj_id = story["objectID"]
+            ids.append(obj_id)
             raw = story["title"]
-            #raw += " " + comments[story["objectID"]]
+            if comments.has_key(obj_id):
+                raw += " " + comments[obj_id]
+            #else:
+            #    print "missing " + obj_id
             #print raw
 
             # remove noisy characters; tokenize
@@ -121,7 +107,7 @@ def wordcount_filter(words, num=5):
     for k in words.keys():
         if(words[k] > num):
             keepset.append(k)
-    print len(keepset)
+    print "Vocabulary size: " + str(len(keepset))
     return(sorted(set(keepset)))
 
 
@@ -149,10 +135,10 @@ def main(argv):
     vocabf = ''
     commentf = 'comments.txt'
     start_time = time.time()
-    word_count_threshold = 50
+    word_count_threshold = 200
 
     try:
-        opts, args = getopt.getopt(argv,"i:v:",["ifile=","vocabfile=")
+        opts, args = getopt.getopt(argv,"i:v:",["ifile=","vocabfile="])
     except getopt.GetoptError:
         print 'python bagofwords.py -i <ifile> -v <vocabfile>'
         sys.exit(2)
@@ -170,12 +156,15 @@ def main(argv):
 	 
     outputf = inputf[:-4]
     comments = dict()   
-    commentfile = open(commentf, 'r')
-    for line in commentfile:
-        temp = line.split()
-        id = int(temp[0])
+    fp = open("comments.txt", "r")
+    for line in fp.readlines():
+        temp = line.decode("utf-8-sig").split(" ")
+        if len(temp) < 2:
+            continue
+        id = temp[0]
         comments[id] =  " ".join(temp[1:])
-    commentfile.close()
+    fp.close()
+    print "Number of comments read: ", len(comments)
 
     if (not vocabf):
         (docs, classes, samples, ids, words) = tokenize_corpus(inputf, comments, train=True)
@@ -212,7 +201,7 @@ def main(argv):
     idfile.write("\n".join(ids))
     idfile.close()
 
-    print str(time.time() - start_time)
+    print "Time in seconds: " + str(time.time() - start_time)
 
 if __name__ == "__main__":
     main(sys.argv[1:])
