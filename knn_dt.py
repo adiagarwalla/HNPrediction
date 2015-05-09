@@ -1,8 +1,9 @@
 from sklearn.neighbors import KNeighborsClassifier
+from sklearn import tree
 from sklearn.cluster import KMeans
 import numpy as np
 
-file_extension = "10k"
+file_extension = "100k"
 
 if file_extension == "100k": 
 	num_train = 89961
@@ -29,17 +30,21 @@ def main ():
 	train_y = [int(l) for l in file_train_target.readlines()]
 	test_y = [int(l) for l in file_test_target.readlines()]
 
+	models = [
+		#("knn", KNeighborsClassifier(n_neighbors = num_neighbors)), 
+		("dt", tree.DecisionTreeClassifier())
+		]
 
-	# read training into cluster
-	model_knn = KNeighborsClassifier(n_neighbors = num_neighbors)
-	model_knn.fit(train_x, train_y)
-	predictions = model_knn.predict(test_x)
-	score = sum([1 if i == j else 0 for i, j in zip(predictions, test_y)])/(num_test + 0.0)
-	print "KNN score: ", + score
-	out = open("knn_"+file_extension+"_predictions.txt", "w")
-	for prediction in predictions:
-		out.write(str(prediction) + "\n")
-	out.close()
+	for (name, model) in models:
+		# read training into cluster
+		model.fit(train_x, train_y)
+		predictions = model.predict(test_x)
+		score = sum([1 if i == j else 0 for i, j in zip(predictions, test_y)])/(num_test + 0.0)
+		print name + "score: ", + score
+		out = open(name + "_"+file_extension+"_predictions.txt", "w")
+		for prediction in predictions:
+			out.write(str(prediction) + "\n")
+		out.close()
 
 
 main()
