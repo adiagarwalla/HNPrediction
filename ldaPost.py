@@ -10,8 +10,7 @@ else:
 	num_test = 1026
 
 
-number_topics = 15
-number_iterations = 200
+number_iterations = 100
 
 # reading a bag of words file back into python.
 def read_bagofwords_dat(myfile, numofposts):
@@ -20,17 +19,13 @@ def read_bagofwords_dat(myfile, numofposts):
     return bagofwords
 
 # LDA on bag of words of titles across all posts
-def ldaPost(bagOfWords, topics, iterations, vocab, trainTitles, testBagOfWords, testTitles):
-	model = lda.LDA(n_topics=topics, n_iter=iterations)
-	model.fit(bagOfWords)
-
-	print "Fit train bag of words and the shape of the topic-word distribution is - "
+def ldaPost(model, vocab, trainTitles, testBagOfWords, testTitles):
 
 	#Distribution over vocabulary for each topic
 	topic_word = model.topic_word_
 
 	#Shape of topic_word
-	print topic_word.shape
+	#print topic_word.shape
 
 	print "Top 5 vocab words per topic"
 	# Top 5 vocab words per topic
@@ -42,11 +37,11 @@ def ldaPost(bagOfWords, topics, iterations, vocab, trainTitles, testBagOfWords, 
 	#Distribution over topics for each post
 	post_topic = model.doc_topic_
 
-	print "Shape of trainDocument-topic distribution is - "
+	#print "Shape of trainDocument-topic distribution is - "
 	#Shape of post_topic
-	print post_topic.shape
+	#print post_topic.shape
 
-	print "Top topic for 10 posts are - "
+	print "Top topic for 10 training posts are - "
 	# Top topic for 10 posts
 	for n in range(10):
 		topic_most_pr = post_topic[n].argmax()
@@ -57,15 +52,14 @@ def ldaPost(bagOfWords, topics, iterations, vocab, trainTitles, testBagOfWords, 
 	#Run fit transform for held out test data
 	test_post_topic = model.fit_transform(testBagOfWords)
 
-	outfile= open("test_doc_topic.txt", 'w')
-        outfile.write(test_post_topic)
-        outfile.close()
+
+	print "-----------------------------------------------------"
 
 	print "Fit transformed test bag of words and shape of document - topic distribution is - "
 	#Make sure shape of this is correct
-	print test_post_topic.shape
+	#print test_post_topic.shape
 
-	print "Top topic for 10 posts are - "
+	print "Top topic for 10 test posts are - "
 	#Distribution over topics for 10 posts in the test dataset
 	for n in range(10):
 		test_topic_most_pr = test_post_topic[n].argmax()
@@ -86,26 +80,27 @@ def main():
         with open(file_vocab) as f:
             train_vocab = f.readlines()
 
-        print "Read train vocabulary file"
+        #print "Read train vocabulary file"
 
         file_titles = "train_"+file_extension+"_samples.txt"
         train_titles = []
         with open(file_titles) as f:
             train_titles = f.readlines()
 
-        print "Read train titles file"
+        #print "Read train titles file"
 
         file_test_titles = "test_"+file_extension+"_samples.txt"
         test_titles = []
         with open(file_test_titles) as f:
             test_titles = f.readlines()
 
-        print "Read test titles file"
+        #print "Read test titles file"
 
 
         best = -float('Inf')
-        best_num_topics = 5
-        for topics in range(5, 30, 5):
+        best_num_topics = "poop";
+        best_model = "poop";
+        for topics in range(5, 31, 5):
         	print "--------------------------------------------------"
         	print "Number of topics is = " + str(topics)
         	model = lda.LDA(n_topics=topics, n_iter=number_iterations)
@@ -114,10 +109,11 @@ def main():
         	if model.loglikelihood() > best:
         		best_num_topics = topics
         		best = model.loglikelihood()
+        		best_model = model
         
         print "best number of topics =" + str(best_num_topics)
         number_topics = best_num_topics	
 
-        ldaPost(train, number_topics, number_iterations, train_vocab, train_titles, test, test_titles)
+        ldaPost(model, train_vocab, train_titles, test, test_titles)
 
 main()

@@ -1,7 +1,10 @@
 
-filenames = [#"svm_100k_predictions.txt", "knn_100k_predictions.txt", 
-#"ldasvm_100k_predictions.txt", "cosine_prediction_100k_classes.txt",
-"dt_100k_predictions.txt"]
+filenames = [#"svm_100k_predictions.txt",
+#"knn_100k_predictions.txt",
+"ldasvm_100k_predictions.txt"
+#"cosine_prediction_100k_classes.txt",
+#"dt_100k_predictions.txt"
+]
 	
 file_test_target = open("test_100k_classes.txt", "r")
 test_y = [int(l) for l in file_test_target.readlines()]
