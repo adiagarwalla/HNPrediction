@@ -14,7 +14,7 @@ from sklearn.naive_bayes import GaussianNB
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.naive_bayes import BernoulliNB
 
-file_extension = "10k"
+file_extension = "100k"
 if file_extension == "100k": 
     num_train = 89961
     num_test = 10039
@@ -67,16 +67,15 @@ def main():
     print "Read test classes file whose length is"
     print len(test_classes)
 
-    cutoff = 2.5
-    # class_prior = [.2, .8]
-    nb = GaussianNB()
-    #nb = MultinomialNB(1.0, False, class_prior)
-    # nb = BernoulliNB(1.0, cutoff, False, class_prior)
+    # cutoff = 2.5
+    class_prior = [.88, .09, .03]
+    # nb = GaussianNB()
+    nb = MultinomialNB(1.0, False, class_prior)
     model = nb.fit(train, train_classes)
 
     y_pred = model.predict(test)
 
-    outfile= open("bayes_"+file_extension+"_classes.txt", 'w')
+    outfile= open("bayes_multinomial_"+file_extension+"_classes.txt", 'w')
     outfile.write("\n".join(y_pred))
     outfile.close()
 
